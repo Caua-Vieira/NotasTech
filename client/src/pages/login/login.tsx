@@ -108,7 +108,13 @@ function Login() {
                                                         <label className="form-check-label" >Salvar Login</label>
                                                     </div>
                                                     <br />
-                                                    <button type="submit" className="w-75 d-block m-auto btn btn-outline-primary btn-sm">Entrar<i className="bi bi-box-arrow-in-right ms-2"></i></button>
+                                                    <button
+                                                        type="submit"
+                                                        className="w-75 d-block m-auto btn btn-outline-primary btn-sm"
+                                                        onClick={criarUsuario}
+                                                    >Entrar
+                                                        <i className="bi bi-box-arrow-in-right ms-2"></i>
+                                                    </button>
                                                     <br />
                                                     <div className="text-center">
                                                         <a href="#" className="link-danger text-center">Esqueci minha senha</a>
